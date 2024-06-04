@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>台中市西屯區套房與住宅大樓歷年租金</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<header>
+  <h1>台中市西屯區套房與住宅大樓歷年租金</h1>
+</header>
+<body>
+<p>選擇"套房"或"住宅大樓"</p>
+
+<!--產生 可以選擇suite 或是 building 的選單 以及按鈕-->
+<form id="selectform">
+  <select id="rent" name="rent">
+    <option value="" selected disabled>請選擇</option>
+    <option value="suite">套房</option>
+    <option value="building">住宅大樓</option>
+  </select>
+  <button type="submit">查詢</button>
+</form>
+<p>單位：元/坪</p>
+<p id="log"></p>
+<canvas id="suiteChart"></canvas>
+<canvas id="buildingChart"></canvas>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/javascripts/script.js"></script>
+<footer>
+  <p>資料來源：<a href="https://lvr.land.moi.gov.tw/" target="_blank">內政部不動產交易實價查詢服務網</a></p>
+</footer>
+
+</html>

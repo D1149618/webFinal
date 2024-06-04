@@ -1,0 +1,60 @@
+body {
+  display: inherit;
+  padding: 50px;
+  margin: 5% 0 0 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #EAC100;
+}
+
+h1 {
+  text-align: center;
+  color: 	#3C3C3C;
+}
+
+/*表格樣式*/
+table {
+  border-collapse: collapse;
+  width: 30%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #FFDC35;
+  color: #3C3C3C;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+header {
+  background-color: #FFDC35;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+canvas {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  display: block;
+}
